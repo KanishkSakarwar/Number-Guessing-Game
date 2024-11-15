@@ -5,8 +5,6 @@ use colored::*;
 
 fn main(){
     let secret_number = rand::thread_rng().gen_range(1,10);
-    //println!("{} is secret number",secret_number);
-    
     loop{
         let mut guess = String::new();
         println!("Guess a number:");
